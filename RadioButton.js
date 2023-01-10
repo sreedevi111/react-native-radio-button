@@ -3,8 +3,8 @@ import { StyleSheet, TouchableOpacity } from 'react-native'
 import { View } from 'react-native-animatable'
 import PropTypes from 'prop-types'
 
-const DEFAULT_SIZE_MULTIPLIER = 0.7
-const DEFAULT_OUTER_BORDER_WIDTH_MULTIPLIER = 0.2
+const DEFAULT_SIZE_MULTIPLIER = 1.1
+const DEFAULT_OUTER_BORDER_WIDTH_MULTIPLIER = 0.1
 
 export default class RadioButton extends Component {
   static propTypes = {
